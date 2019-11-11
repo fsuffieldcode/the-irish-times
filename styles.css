@@ -350,13 +350,27 @@ template {
   display: none;
 }
 
+h1 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+h3 {
+    font-size: 1.0rem;
+}
+
 
 h4 {
+    font-size: 0.9rem;
     margin: 10px 0px 0px 0px;
 }
 
 h5 {
-    margin: 10px 0px 10px 0px;
+    font-size: 0.8rem;
+    margin: 20px 0px 10px 0px;
 }
 
 
