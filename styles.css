@@ -413,6 +413,7 @@ h5 {
 
 .article-thumb {
     grid-column: 1 / 4;
+    margin-top: 15px;
     padding-bottom: 35px;
 }
 
@@ -437,6 +438,10 @@ h5 {
 .thumb-date, .thumb-time {
     padding-right: 20px;
     color: grey;
+}
+
+.carousel-header {
+    grid-column: 2 / span 1;
 }
 
 .scrolling-wrapper {
