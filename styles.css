@@ -413,7 +413,6 @@ h5 {
 
 .article-thumb {
     grid-column: 1 / 4;
-    margin-top: 15px;
     padding-bottom: 35px;
 }
 
@@ -450,7 +449,7 @@ h5 {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 
   .card {
