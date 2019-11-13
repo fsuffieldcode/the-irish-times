@@ -351,7 +351,8 @@ template {
 }
 
 h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
 }
 
 h2 {
@@ -390,7 +391,7 @@ ul {
 }
 
 .main-nav {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   grid-row: 1 / 2;
   grid-column: 1 / 4;
   display: flex;
@@ -399,7 +400,7 @@ ul {
 }
 
 .category-nav {
-  background-color: yellow;
+  /* background-color: yellow; */
   grid-row: 2 / 3;
   grid-column: 1 / 4;
   display: flex;
@@ -408,7 +409,7 @@ ul {
 }
 
 .topic-nav {
-  background-color: cyan;
+  /* background-color: cyan; */
   grid-row: 3 / 4;
   grid-column: 1 / 4;
   display: flex;
