@@ -350,6 +350,12 @@ template {
   display: none;
 }
 
+p, a {
+    font-family: 'Roboto', sans-serif;
+    color: inherit;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 1.5rem;
     letter-spacing: 0.05em;
@@ -406,6 +412,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgrey;
 }
 
 .topic-nav {
@@ -415,7 +423,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 10px;
 }
+
 
 .article-thumb {
     grid-column: 1 / 4;
@@ -442,6 +452,7 @@ ul {
 }
 
 .thumb-date, .thumb-time {
+    font-size: 0.8rem;
     padding-right: 20px;
     color: grey;
 }
