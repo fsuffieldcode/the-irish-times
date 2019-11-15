@@ -394,10 +394,15 @@ ul {
 .container {
   display: grid;
   grid-template-columns: 25px 1fr 25px;
+  padding-top: 15px;
 }
 
 .nav {
     padding: 0px 15px 0px 15px;
+}
+
+.nav a {
+  font-size: 14px;
 }
 
 .main-nav {
@@ -422,7 +427,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .topic-nav {
@@ -564,8 +569,8 @@ ul {
 }
 
 .fa-bars, .fa-search  {
-  font-size: 1.2rem;
-  opacity: 0.5;
+  font-size: 1.1rem;
+  opacity: 0.3;
 }
 
 .fa-clock {
