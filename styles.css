@@ -366,11 +366,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 h3 {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
 }
 
 
@@ -437,8 +437,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
   border-top: 1px solid lightgrey;
   margin-top: -1px;
 }
@@ -569,7 +569,7 @@ ul {
 }
 
 .fa-bars, .fa-search  {
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   opacity: 0.3;
 }
 
@@ -589,6 +589,10 @@ p {
   padding-bottom: 10px;
 }
 
+.nav {
+  font-weight: 300;
+}
+
 .category-nav a:link {
   display: inline-block;
   border-bottom: 1px solid lightgrey;
@@ -602,8 +606,22 @@ p {
 .category-nav a:hover {
   color: #307256;
   border-bottom: 1px solid #307256;
+  font-weight: 400;
 }
 
 .main-nav-link h1 {
-  margin: 0;
+  padding-top: 2px;
+}
+
+.topic-nav a:link {
+  display: inline-block;
+}
+
+.topic-nav a:visited {
+  display: inline-block;
+}
+
+.topic-nav a:hover {
+  color: #307256;
+  font-weight: 400;
 }
