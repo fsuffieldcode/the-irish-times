@@ -97,6 +97,7 @@ ul {
 .article-thumb {
     grid-column: 1 / -1;
     padding-bottom: 15px;
+    height: 371px;
 }
 
 .thumb-image {
