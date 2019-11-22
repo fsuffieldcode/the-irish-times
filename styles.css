@@ -346,6 +346,7 @@ p {
 
 .thumb-image {
   grid-column: 1 / span 1;
+  max-width: 660px;
 }
 
 .thumb-text {
