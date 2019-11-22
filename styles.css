@@ -2,7 +2,6 @@ body {
   font-family: 'Prata', serif;
 }
 
-
 p, a {
     font-family: 'Roboto', sans-serif;
     color: inherit;
@@ -24,7 +23,6 @@ h2 {
 h3 {
     font-size: 1.2rem;
 }
-
 
 h4 {
     font-size: 0.9rem;
@@ -302,8 +300,9 @@ p {
   font-weight: 400;
 }
 
-.main-nav-link h1 {
+.logo {
   font-family: 'Tinos', serif;
+  font-size: 1.5rem;
 }
 
 .topic-nav a:link {
