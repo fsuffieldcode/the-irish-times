@@ -92,6 +92,10 @@ ul {
   max-height: 371px;
 }
 
+.hero-text-container {
+  display: flex;
+  justify-content: center;
+}
 
 .hero-text {
   padding-left: 3rem;
@@ -100,8 +104,8 @@ ul {
   font-size: 1.2rem;
   line-height: 1.2em;
   max-height: 371px;
+  max-width: 660px;
 }
-
 
 .hero-title {
   font-weight: 400;
@@ -115,19 +119,19 @@ ul {
     font-size: 0.8rem;
 }
 
-.thumb-footer {
+.hero-footer {
     display: flex;
     align-content: space-between;
     margin-top: -10px;
 }
 
-.thumb-date, .thumb-time {
+.article-date, .article-time {
     font-size: 0.7rem;
     align-self: flex-end;
     opacity: 0.3;
 }
 
-.thumb-date {
+.article-date {
   padding-right: 15px;
 }
 
@@ -388,7 +392,7 @@ p {
     font-size: 0.8rem;
   }
 
-  .thumb-date, .thumb-time {
+  .article-date, .article-time {
     font-size: 0.7rem;
     padding-right: 3px;
   }
