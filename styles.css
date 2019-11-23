@@ -67,6 +67,19 @@ ul {
   z-index: 999;
 }
 
+.nav-date-weather-container {
+  display: none;
+}
+
+.date, .weather {
+  font-size: 0.7rem;
+  display: inline-block;
+}
+
+.date {
+  padding-right: 15px;
+}
+
 .category-nav {
   padding-top: 1rem;
 }
@@ -321,13 +334,29 @@ ul {
 
 @media (min-width: 758px) {
 
-.nav {
-    justify-content: space-between;
-}
+  .logo {
+    width: 100%;
+    justify-self: center;
+  }
 
-.fa-bars, .fa-search  {
+  .nav-date-weather-container {
+    display: block;
+    width: 200px;
+  }
+
+  .search-container {
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.search-button  {
   font-size: 1.3rem;
   opacity: 0.3;
+}
+
+.hamburger-link, .hamburger {
+  display: none;
 }
 
 .hero-container {
