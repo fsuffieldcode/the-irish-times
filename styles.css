@@ -96,13 +96,13 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 0.7rem;
-  padding-left: 2rem;
+  padding-left: 2.8rem;
   margin-bottom: -1px;
 }
 
 
 .misc-nav .fas {
-  padding-right: 5px;
+  padding-right: 2px;
   font-size: 1.0rem;
   opacity: 0.15;
 }
@@ -359,7 +359,7 @@ ul {
   display: grid;
   border: 1px dashed lightgray;
   display: none;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .sub-chevron {
@@ -379,7 +379,7 @@ ul {
   }
 
   .main-nav {
-    height: 4.5rem;
+    height: 4rem;
     padding-bottom: 1.2rem;
   }
 
@@ -406,7 +406,7 @@ ul {
 
   .sub-nav-container {
     display: grid;
-    grid-template-columns: 1.9fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 
   .logo {
@@ -453,7 +453,7 @@ ul {
 .hero-container {
   grid-column: 2 / -2;
   display: grid;
-  grid-template-columns: 0.75rem 1.4fr 1.4fr 1fr 0.75rem;
+  grid-template-columns: 0.75rem 1fr 1fr 1fr 0.75rem;
 }
 
 .hero-image-container {
@@ -495,6 +495,12 @@ ul {
 
 .right-column {
   display: block;
+}
+
+.main-nav-shrink {
+  height: 1.8rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
 }
 
 
