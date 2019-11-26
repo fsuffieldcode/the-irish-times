@@ -128,10 +128,6 @@ ul {
   justify-content: center;
 }
 
-.hero-image {
-  grid-column: 2 / span 2;
-  max-height: 371px;
-}
 
 .hero-text-container {
   display: flex;
@@ -434,16 +430,6 @@ ul {
   display: none;
 }
 
-.hero-container {
-  padding-bottom: 15px;
-}
-
-
-.hero-image {
-  grid-column: 1 / span 1;
-}
-
-
 .nav {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -453,14 +439,15 @@ ul {
 .hero-container {
   grid-column: 2 / -2;
   display: grid;
-  grid-template-columns: 0.75rem 1fr 1fr 1fr 0.75rem;
+  grid-template-columns: 0.75rem 37vw 1fr 1fr 0.75rem;
+  padding-bottom: 15px;
+  max-height: 37vw;
 }
 
 .hero-image-container {
   grid-column: 2 / span 1;
-  overflow: hidden;
-  width: 37vw;
-  max-height: 37vw;
+    overflow: hidden;
+    display: flex;
 }
 
 .hero-category {
