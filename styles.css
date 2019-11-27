@@ -455,6 +455,11 @@ ul {
     display: flex;
 }
 
+.hero-image {
+  max-width: 40vw;
+  object-fit: cover;
+}
+
 .hero-category {
   font-size: 0.7rem;
   line-height: 1rem;
