@@ -12,10 +12,6 @@ This project is currently in development.
 
 ### Project Screen Shots
 
-#### Mobile (incomplete)
+#### Mobile & Tablet Layouts (incomplete)
 
-<img src="https://github.com/fsuffieldcode/the-irish-times/blob/master/irish-times-mobile-ss.jpg" alt="screenshot of mobile layout" width="360px">
-
-### Tablet (incomplete)
-
-<img src="https://github.com/fsuffieldcode/the-irish-times/blob/master/irish-times-tablet-ss.jpg" alt="screenshot of tablet layout" width="768px">
+<img src="https://github.com/fsuffieldcode/the-irish-times/blob/master/irish-times-responsive-mockup.jpg" alt="screenshot of mobile and layout lyoyuts" width="360px">
