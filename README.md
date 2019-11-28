@@ -14,4 +14,4 @@ This project is currently in development.
 
 #### Mobile & Tablet Layouts (incomplete)
 
-<img src="https://github.com/fsuffieldcode/the-irish-times/blob/master/irish-times-responsive-mockup.jpg" alt="screenshot of mobile and layout lyoyuts" width="750px">
+<img src="https://github.com/fsuffieldcode/the-irish-times/blob/master/irish-times-responsive-mockup.jpg" alt="screenshot of mobile and layout layouts" width="600px">
