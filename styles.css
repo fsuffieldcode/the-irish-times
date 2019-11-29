@@ -41,6 +41,12 @@ ul {
     margin: 0;
 }
 
+.hide {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
 .main-cointainer {
   display: grid;
   grid-template-columns: 0px 1fr 0px;
@@ -102,9 +108,16 @@ ul {
 
 
 .misc-nav .fas {
-  padding-right: 2px;
-  font-size: 1.0rem;
-  opacity: 0.15;
+  padding-right: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.2;
+}
+
+.media-link {
+  padding-right: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: 0.6rem;
+  color: #212121;
 }
 
 .tablet-button {
@@ -308,12 +321,13 @@ ul {
 }
 
 .nav-link-cat {
-  padding-bottom: 9px;
+  padding-bottom: 0.8rem;
+  margin-bottom: -1.28rem;
 }
 
 .category-nav {
-  margin-bottom: -1px;
   z-index: 9998;
+  padding-bottom: 1.2rem;
 }
 
 .category-nav a:link {
@@ -328,8 +342,9 @@ ul {
 
 .category-nav a:hover {
   color: #307256;
-  border-bottom: 1px solid #307256;
+  border-bottom: 2px solid #307256;
   font-weight: 400;
+  margin-bottom: -22px;
 }
 
 .logo {
@@ -349,7 +364,6 @@ ul {
 
 .topic-nav a:hover {
   color: #307256;
-  font-weight: 400;
 }
 
 .right-column {
@@ -369,9 +383,29 @@ ul {
 .sign-in-subscribe-container {
   display: none;
   font-size: 0.8rem;
+  width: 200px;
 }
 
 @media (min-width: 758px) {
+
+  .hide {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .misc-nav .fas {
+    padding-right: 0.4rem;
+  }
 
   .misc-nav {
     display: flex;
@@ -379,11 +413,21 @@ ul {
 
   .main-nav {
     height: 4rem;
-    padding-bottom: 1.2rem;
   }
 
   .category-nav {
-    margin-bottom: -4px;
+    margin-bottom: -6px;
+    padding-bottom: 10px;
+  }
+
+  .category-nav > .nav-link{
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .nav-link-cat {
+    padding-bottom: 1rem;
+    margin-bottom: -5px;
   }
 
 
@@ -430,10 +474,6 @@ ul {
   opacity: 0.3;
 }
 
-.hamburger-link, .hamburger {
-  display: none;
-}
-
 .nav {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -442,12 +482,13 @@ ul {
 
 .topic-nav {
   padding-top: 2.2rem;
+  padding-bottom: 1.3rem;
   justify-content: flex-start;
 }
 
 .topic-nav > .nav-link {
-  font-size: 0.75rem;
-  padding-left: 5rem;
+  font-size: 0.7rem;
+  padding-left: 4rem;
 }
 
 .topic-nav > .nav-link:nth-child(1) {
