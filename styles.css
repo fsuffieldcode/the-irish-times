@@ -172,7 +172,7 @@ ul {
 .article-date, .article-time {
     font-size: 0.75rem;
     align-self: flex-end;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 .fa-clock {
@@ -386,6 +386,7 @@ ul {
     margin-bottom: -4px;
   }
 
+
   .sign-in-subscribe-container {
     display: unset;
   }
@@ -434,9 +435,23 @@ ul {
 }
 
 .nav {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   max-width: 100%;
+}
+
+.topic-nav {
+  padding-top: 2.2rem;
+  justify-content: flex-start;
+}
+
+.topic-nav > .nav-link {
+  font-size: 0.75rem;
+  padding-left: 5rem;
+}
+
+.topic-nav > .nav-link:nth-child(1) {
+  padding-left: 0;
 }
 
 .hero-container {
