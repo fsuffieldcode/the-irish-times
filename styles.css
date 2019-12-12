@@ -764,8 +764,8 @@ margin-top: 5px;
 @media (min-width: 1200px) {
 
   .main-container > * {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
   .card {
