@@ -61,10 +61,9 @@ const dateNumber = now.getDate();
 const year = now.getFullYear();
 
 
-let dayName = "Sunday";
-let monthName = "January";
-let yearName = "1999";
-let dateString = "";
+let dayName = "";
+let monthName = "";
+let yearName = "";
 
 
 const getDayName = (day) => {
@@ -144,3 +143,4 @@ getMonthName(month);
 const formattedDate = dayName + ", " + monthName + " " + dateNumber + ", " + year;
 
 date.textContent = formattedDate;
+

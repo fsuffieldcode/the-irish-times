@@ -99,20 +99,21 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 0.7rem;
-    padding-left: 2.8rem;
+    padding-left: 2.4rem;
     margin-bottom: -1px;
   }
   
   
   .misc-nav .fas {
-    padding-right: 0.5rem;
-    font-size: 0.9rem;
+    padding-right: 0;
+    margin-right: 0;
+    font-size: 0.8rem;
     opacity: 0.2;
   }
 
   
   .media-link {
-    padding-right: 0.2rem;
+    margin-right: 0.4rem;
     padding-bottom: 0.2rem;
     font-size: 0.6rem;
     color: #212121;
@@ -403,6 +404,7 @@
 
   .misc-nav .fas {
     padding-right: 0.4rem;
+    font-size: 0.8rem;
   }
 
   .misc-nav {
@@ -488,7 +490,7 @@
 .topic-nav {
   padding-top: 2.2rem;
   padding-bottom: 1.3rem;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .topic-nav > .nav-link {
@@ -578,9 +580,6 @@
   width: auto;
 }
 
-/* Change grid layout below */
-
-
 .carousel {
   padding: 1.5rem 0.75rem 0 0.75rem;
 }
@@ -646,7 +645,7 @@ margin-top: 5px;
   margin-right: 0.75rem;
   display: flex;
   justify-content: flex-start;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .subhero-container {
@@ -654,7 +653,7 @@ margin-top: 5px;
   margin-right: 0.75rem;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .subhero-container > * {
@@ -735,8 +734,53 @@ margin-top: 5px;
 
 @media (min-width: 1024px) {
 
+  .main-container > * {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .card {
+    width: 25vw;
+  }
+
+  .hero-container {
+    grid-template-columns: 0.75rem 28vw 26fr 34fr 0.75rem;
+    grid-template-rows: 28vw;
+
+  }
+
+  .subhero-container > * {
+    width: 25vw;
+  }
+
+  .topic-nav {
+    padding-right: 4rem;
+  }
 
 
   }
 
 
+@media (min-width: 1200px) {
+
+  .main-container > * {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .card {
+    max-width: 27vw;
+  }
+
+  .hero-container {
+    grid-template-columns: 0.75rem 28vw 27fr 34fr 0.75rem;
+    grid-template-rows: 28vw;
+  }
+
+  .subhero-container > * {
+    max-width: 27vw;
+  }
+
+
+  
+  }
