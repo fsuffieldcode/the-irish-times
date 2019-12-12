@@ -57,7 +57,7 @@ const now = new Date();
 
 const day = now.getDay();
 const month = now.getMonth();
-let dateNumber = now.getDate();
+const dateNumber = now.getDate();
 const year = now.getFullYear();
 
 
@@ -142,3 +142,5 @@ getDayName(day);
 getMonthName(month);
 
 const formattedDate = dayName + ", " + monthName + " " + dateNumber + ", " + year;
+
+date.textContent = formattedDate;
